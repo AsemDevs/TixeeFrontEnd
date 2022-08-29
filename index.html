@@ -20,24 +20,103 @@
       integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/css/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-        <nav class="navbar navbar-expand-sm navbar-light bg-primary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">primary</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
-                    aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+
+    <header class="px-3">
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/tixee-logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarID">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto ml-3 my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Demos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav ml-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <button class="btn mr-3" type="submit">Login</button>
+                  <button class="btn orng-element text-light" type="submit">Get Started For Free</button>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="container-fluid border rounded-3 mx-auto content-container d-flex align-items-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content mx-auto text-center">
+                        <h1 class="display-4">Easy way to achieve<br> customer satisfaction</h1>
+                        <p class="lead">Providing all customer service within one software. Our landing page template<br> works on all devices and we have completely redesigned the project<br> management experience.</p>
+                        <button class="btn text-light mx-auto mr-3 border-0 orng-element" type="submit">Let's get started</button>
+                        <button class="btn text-light border border-1 rounded-3" type="submit">Watch Our Video</button>
                     </div>
                 </div>
             </div>
-        </nav>
+        </div>
+        <div class="container features p-5 mt-3 justify-content-center">
+            <div class="row">
+                <div class="col">
+                    <div class="card border-0">
+                        <div class="card-header bg-transparent border-0">
+                            <img src="/images/icon1.png" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Multiple Modern Layouts</h4>
+                            <p class="card-text">With lots of unique blocks, you can easily build a page without coding. Build your next landing page quickly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <div class="card-header bg-transparent border-0">
+                            <img src="/images/icon2.png" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Built with TailwindCSS</h4>
+                            <p class="card-text">With lots of unique blocks, you can easily build a page without coding. Build your next landing page quickly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <div class="card-header bg-transparent border-0">
+                            <img src="/images/icon3.png" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Fully Responsive</h4>
+                            <p class="card-text">With lots of unique blocks, you can easily build a page without coding. Build your next landing page quickly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
 
         <script src="js/script.js"></script>
   </body>

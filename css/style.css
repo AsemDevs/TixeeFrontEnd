@@ -1,0 +1,49 @@
+* {
+font-family: 'Space Grotesk', sans-serif;
+font-size: 16px;
+}
+.orng-element {
+    background-color: #F8673D;
+}
+.navbar-nav button,
+.content button {
+    padding: 1rem;
+    border-radius: 0.3125rem;
+}
+header .nav-item {
+    padding-inline: 1rem;
+}
+
+header .content-container {
+    color: #fff;
+    height: 727px;
+    border-radius: 1rem;
+    background-image: url('/images/BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-container p {
+    color: rgba(255, 255, 255, 0.69);
+    font-size: 1.25rem;
+}
+.card h4, .card p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #12141D;
+}
+.card p {
+    opacity: 75%;
+}
+.content-container h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.container .card-header img {
+    width: 2rem;
+}
+.card-body p {
+    font-size: 1rem;
+    font-weight: 400;
+}
