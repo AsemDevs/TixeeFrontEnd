@@ -4,29 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap Site</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-      crossorigin="anonymous"
-    ></script>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk&display=swap" rel="stylesheet">    
-<link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
 
@@ -41,7 +28,7 @@
                     <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto ml-3 my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <ul class="navbar-nav me-auto ml-3 my-2 my-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Demos</a>
                   </li>
@@ -58,18 +45,18 @@
                     <a class="nav-link" href="#">Contact</a>
                   </li>
                 </ul>
-                <ul class="navbar-nav ml-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <ul class="navbar-nav ml-auto my-2 my-lg-0 navbar-nav-scroll">
                   <button class="btn mr-3" type="submit">Login</button>
                   <button class="btn orng-element text-light" type="submit">Get Started For Free</button>
                 </ul>
               </div>
             </div>
         </nav>
-        <div class="container-fluid border rounded-3 mx-auto content-container d-flex align-items-center">
+        <div class="container-fluid border content-container d-flex align-items-center justify-content-center">
             <div class="row">
                 <div class="col-md-12">
                     <div class="content mx-auto text-center">
-                        <h1 class="display-4">Easy way to achieve<br> customer satisfaction</h1>
+                        <h1 class="display-4 text-light">Easy way to achieve<br> customer satisfaction</h1>
                         <p class="lead">Providing all customer service within one software. Our landing page template<br> works on all devices and we have completely redesigned the project<br> management experience.</p>
                         <button class="btn text-light mx-auto mr-3 border-0 orng-element" type="submit">Let's get started</button>
                         <button class="btn text-light border border-1 rounded-3" type="submit">Watch Our Video</button>
@@ -77,9 +64,9 @@
                 </div>
             </div>
         </div>
-        <div class="container features p-5 mt-3 justify-content-center">
+        <div class="container features mt-3 justify-content-center">
             <div class="row">
-                <div class="col">
+                <div class="col-md-4">
                     <div class="card border-0">
                         <div class="card-header bg-transparent border-0">
                             <img src="/images/icon1.png" alt="" srcset="">
@@ -90,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-4">
                     <div class="card border-0">
                         <div class="card-header bg-transparent border-0">
                             <img src="/images/icon2.png" alt="" srcset="">
@@ -101,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-4">
                     <div class="card border-0">
                         <div class="card-header bg-transparent border-0">
                             <img src="/images/icon3.png" alt="" srcset="">
@@ -115,9 +102,58 @@
             </div>
         </div>
     </header>
-
-
-
+    <div class="main-page">
+        <div class="mixland-section container full-bleed">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <span class="d-block mb-4">130+ Handcoded Blocks</span>
+                    <h1>Mixland helps you<br>
+                        build beautiful website</h1>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <div class="card container mb-2 border-0">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="/images/icon4.png" class="d-inline float-left icon" alt="" srcset="">
+                            </div>
+                            <div class="col-md-1 p-0 card-body">
+                                <h5 class="card-title">Simply Copy & Paste</h5>
+                                <p class="card-text">Many desktop publishing packages and web page editors now use for them.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-transparent container mb-2 border-0">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="/images/icon5.png" class="d-inline float-left icon" alt="" srcset="">
+                            </div>
+                            <div class="col-md-1 p-0 card-body">
+                                <h5 class="card-title">Simply Copy & Paste</h5>
+                                <p class="card-text">Many desktop publishing packages and web page editors now use for them.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-transparent container mb-2 border-0">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="/images/icon6.png" class="d-inline float-left icon" alt="" srcset="">
+                            </div>
+                            <div class="col-md-1 p-0 card-body">
+                                <h5 class="card-title">Simply Copy & Paste</h5>
+                                <p class="card-text">Many desktop publishing packages and web page editors now use for them.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <img src="/images/mixland.png" class="w-100" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         <script src="js/script.js"></script>
   </body>
 </html>
