@@ -3,6 +3,15 @@ font-family: 'Space Grotesk', sans-serif;
 font-size: 16px;
 color: #000;
 }
+:root {
+    --orng: #F8673D    ;
+    --prmary_black: #12141D;
+    --secondary_black: #18181B;
+}
+img {
+    width: 100%; /* or max-width: 100%; */
+    height: auto;
+}
 .orng-element {
     background-color: #F8673D;
 }
@@ -36,7 +45,7 @@ header .content-container {
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #12141D;
+    color: var(--prmary_black);
 }
 .card p {
     opacity: 75%;
@@ -94,17 +103,73 @@ header .content-container {
     font-weight: 700;
 }
 .track-real h2,
-.track-real .col
-.track-real p {
+.track-real .num,
+.track-real .col-md-1,
+≈.track-real p {
     color: #fff;
+}
+.track-real .col-md-4,
+.track-real .col-md-3 {
+    display: flex;
+    font-size: 0.875rem;
+    color: #fff;
+    align-items: center;
 }
 .track-real h2 {
     font-size: 2.625rem;
 }
 .track-real p {
+    font-family: "Inter", sans-serif;
     font-size: 1rem;
     color: #A1A1AA;
 }
+.track-real .col-md-1,
+.track-real .num {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.pricing p {
+    font-family: "Inter", sans-serif;
+    font-size: 1.125rem;
+}
+.pricing .card {
+    width: 21.875rem;
+    height: 26.8125rem;
+    line-height: 2rem;
+    background-color: #F4F4F5;
+    padding: 1rem;
+}
+.pricing .card-body li {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 35px;
+    color: var(--secondary_black);
+}
+.pricing .card-header h4 {
+    font-size: 0.8125rem
+}
+.pricing .pricing-header {
+    margin-bottom: 5rem;
+}
+.pricing .standard {
+    background-color: var(--secondary_black);
+    border-radius: 10px;
+    height: 30.1875rem;
+    position: relative;
+    top: -53px;
+}
+.card-body button {
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    padding: 1rem
+}
+.pricing .standard button {
+    background-color: var(--orng);
+    color: #fff;
+}
+
 @media (max-width: 767.98px) { 
     .content-container h1 {
         font-size: 3rem;
@@ -121,4 +186,13 @@ header .content-container {
     header .features {
         padding: 1.5rem;
     }
+    .pricing .card {
+        width: auto;
+        margin-bottom: 1rem;
+    }
+    .pricing .standard {
+        position: relative;
+        top: 0;
+    }
 }
+
