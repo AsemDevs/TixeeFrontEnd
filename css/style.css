@@ -13,6 +13,13 @@ img {
     width: 100%; /* or max-width: 100%; */
     height: auto;
 }
+.material-symbols-outlined {
+    font-size: 1rem;
+    vertical-align: middle;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 2.5rem;
+}
 .orng-element {
     background-color: #F8673D;
 }
@@ -21,7 +28,7 @@ img {
 }
 .navbar-nav button,
 .content button {
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     border-radius: 0.3125rem;
 }
 header .nav-item {
@@ -34,7 +41,7 @@ header .content-container {
     color: #fff;
     height: 727px;
     border-radius: 1rem;
-    background-image: url('../images/BG.webp');
+    background-image: url('../images/BG.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -220,7 +227,8 @@ footer {
 }
 .z-footer {
     background-color: var(--blue);
-    padding: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
     display: flex;
     width: 80vw;
     margin: 0 auto;
@@ -232,6 +240,7 @@ footer {
     color: #fff;
 }
 footer .copyright {
+    padding-bottom: 2rem;
 }
 
 @media (max-width: 767.98px) { 
