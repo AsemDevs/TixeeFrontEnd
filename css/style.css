@@ -24,7 +24,7 @@ header .content-container {
     color: #fff;
     height: 727px;
     border-radius: 1rem;
-    background-image: url('/images/BG.png');
+    background-image: url('../images/BG.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -59,8 +59,17 @@ header .content-container {
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+.main-page .track-real {
+    background-color: #1C202B;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
 .main-page .full-bleed {
     box-shadow: 0 0 0 100vmax #FAFAFA;
+    clip-path: inset(0 -100vmax);
+}
+.main-page .full-bleed-dark {
+    box-shadow: 0 0 0 100vmax #1C202B;
     clip-path: inset(0 -100vmax);
 }
 .mixland-section .row .col-md-4 .card:first-of-type {
@@ -83,6 +92,18 @@ header .content-container {
     font-family: "Inter", sans-serif;
     font-size: 21px;
     font-weight: 700;
+}
+.track-real h2,
+.track-real .col
+.track-real p {
+    color: #fff;
+}
+.track-real h2 {
+    font-size: 2.625rem;
+}
+.track-real p {
+    font-size: 1rem;
+    color: #A1A1AA;
 }
 @media (max-width: 767.98px) { 
     .content-container h1 {
