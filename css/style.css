@@ -301,6 +301,9 @@ footer .copyright {
     .copyright ul {
         text-align: center;
     }
+    header .content-container {
+        background-image: url('../images/BG_mobile.png');
+    }
     
 }
 
