@@ -13,6 +13,9 @@ img {
     width: 100%; /* or max-width: 100%; */
     height: auto;
 }
+.navbar-brand img {
+    width: 7.1875rem;
+}
 .material-symbols-outlined {
     font-size: 1rem;
     vertical-align: middle;
@@ -278,6 +281,26 @@ footer .copyright {
     }
     .mixland-section .card {
         padding: 2rem;
+        width: auto;
     }
+    .track-real .row .col-1 {
+        font-size: 3rem;
+    }
+    .track-real .col-md-6 .row,
+    .track-real .col-md-3  {
+        justify-content: center;
+        text-align: center;
+    }
+    .carousel .carousel-item .col-10 {
+        padding-left: 2rem;
+    }
+    .carousel-control-prev {
+        left: 80%;
+    }
+    .copyright p,
+    .copyright ul {
+        text-align: center;
+    }
+    
 }
 
